@@ -1,0 +1,85 @@
+header {
+    color: #545454;
+}
+
+.logo__title {
+    color: #545454;
+}
+
+.logo__subtitle {
+    color: #292929;
+}
+
+.nav > a {
+    color: #545454;
+}
+
+.nav > a.active:not(.disable),
+.nav > a:hover:not(.disable) {
+    color: #292929;
+}
+
+.nav > a:active {
+    color: #545454;
+}
+
+
+.our {
+    margin-bottom: 0;
+}
+
+.slider {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.slider__items {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.slider__item_wrap{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.pagination {
+    width: 359px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagination > .arrow {
+    color: black;
+}
+
+.slider-control {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    margin-top: 2px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background .4s ease;
+}
+
+.arrow:hover:not(.disable),
+.arrow-active {
+    border-color: transparent;
+    background: #FDDCC4;
+}
+
+.disable {
+    cursor: default;
+}
